@@ -1,7 +1,7 @@
 // src/components/LoginButton.tsx
 import React from 'react';
 import { useMsal } from '@azure/msal-react';
-import { loginRequest } from '../../authConfig';
+import { loginRequest } from "../../authConfig"; // Adjust the import path as necessary
 
 export const LoginButton: React.FC = () => {
   const { instance, accounts } = useMsal();
